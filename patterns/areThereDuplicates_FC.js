@@ -19,7 +19,7 @@
 function areThereDuplicates(...input) {
   if (input.length <= 1) return false; // Edge case
 
-  // initialize a variable that will contain the occurance of each argument
+  // initialize a variable that will contain the occurrence of each argument
   let lookup = {};
 
   // count the occurrences of each arg
